@@ -27,14 +27,13 @@
       "type": "string",
       "required": true
     },
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
+    "logo": {
       "type": "media",
       "multiple": false,
-      "private": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
