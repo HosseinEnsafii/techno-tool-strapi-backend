@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * best-price controller
+ * home-page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::best-price.best-price');
+module.exports = createCoreController('api::home-page.home-page');
